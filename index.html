@@ -3,13 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
+    <!-- <meta
       http-equiv="Content-Security-Policy"
       content="script-src 'self' 'unsafe-inline';"
-    />
+    /> -->
     <title>Document</title>
+    <!-- <script src="require.js"></script> -->
   </head>
   <body>
     We are using node, Chrome and Electron.
+    We are using node
+    <script>
+      const process = require('process');
+      document.write(process.versions.node);</script>, Chrome
+    <script>
+      document.write(process.versions.chrome);</script>, and Electron
+    <script>
+      document.write(process.versions.electron);</script>.
+      
+    <div id="BoardContainerDiv">
+
+    </div>
+    <div id="itemsImportedFromCSV">
+
+    </div>
+
+    <script  src="index.js"></script>
   </body>
 </html>

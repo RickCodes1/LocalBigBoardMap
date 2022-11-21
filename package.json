@@ -2,7 +2,7 @@
   "name": "first-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "electron .",
     "build:macos": "electron-builder --macos --dir",
@@ -15,9 +15,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "csv": "^6.2.2",
+    "fs": "^0.0.1-security"
+  },
   "devDependencies": {
-    "electron": "^21.3.0",
+    "electron": "^11.0.0",
     "electron-builder": "^23.6.0"
   },
   "build": {
